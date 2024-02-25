@@ -9,6 +9,13 @@
 
 ### Bot
 The simplify cryptocurrency arbitrage trading bot (alpha) version based on Uniswap V2 protocol in the Polygon network.
+
+### Traiding flow
+<p align="center">
+  <img src="dexArbitrage-1536x864.png" alt="polybot dex arbitrage bot">
+</p>
+
+
 ### Instruction
 
 ```
@@ -17,17 +24,17 @@ cd polybot
 npm install
 rename .env.file to .env and add PRIVATE_KEY
 npx hardhat run --network polygon scripts/deploy.ts
-add contract address to .env
+add CONTRACT_ADDRESS to .env
+add crypto to the smart contract
 npm run trade
 ```
 
 
 
 ### Disclaimer
-Note the code is provided for educational purposes, is unaudited and not fit for financial transactions. Use it to experiment with and build your own strategies. 
+Note the code is provided for educational purposes, is unaudited and not fit for financial transactions.
 
 ### Inspired with:
-
 https://github.com/jamesbachini/DEX-Arbitrage/
 
 ### Research & Results
