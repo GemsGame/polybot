@@ -16,7 +16,7 @@ git clone https://github.com/GemsGame/polybot
 cd polybot
 npm install
 rename .env.file to .env and add PRIVATE_KEY
-npx hardhat run --network polygon
+npx hardhat run --network polygon scripts/deploy.ts
 add contract address to .env
 npm run trade
 ```
