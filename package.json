@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "test": "mocha",
+    "watch": "tsc -w",
+    "build": "tsc --build",
+    "start": "tsc --build && node dist/index.js",
+    "trade": "tsc --build && node dist/templates/trade.js"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.20.1"
+  },
+  "dependencies": {
+    "@balancer-labs/v2-interfaces": "^0.4.0",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "@uniswap/v3-periphery": "^1.4.4",
+    "dotenv": "^16.4.4"
+  }
+}
